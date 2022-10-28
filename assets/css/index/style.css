@@ -1,21 +1,22 @@
 /* main page styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
-
-
 body {
     width: 100%;
     min-height: 100%;
     margin: 0;
-    background: url(../../files/background.gif) center;
+    background: #19191a center;
     background-size: cover;
     display: flex;
     font-family: Hubballi;
 }
+
 .center {
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .info {
     min-width: 300px;
     width: 300px;
@@ -23,33 +24,35 @@ body {
     background: none;
     padding: 35px;
     color: var(--text-color);
-    border-radius: 16px; 
+    border-radius: 16px;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
     -khtml-border-radius: 16px;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    border: hsl(47, 100%, 50%) solid 1px;
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(90px);
+    border: #2c2d2e solid 2px;
 }
+
 .buttons {
     min-width: 300px;
     width: 300px;
     display: flex;
     padding: 0px;
-    border-radius: 8px; 
+    border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -khtml-border-radius: 8px;
 }
+
 a.link {
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    -moz-tap-highlight-color: rgba(0,0,0,0);
-    padding: 8px 20px; 
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding: 8px 20px;
     margin: 4px;
     background: var(--back-color);
     color: rgb(255, 255, 255);
     cursor: pointer;
-    border-radius: 8px; 
+    border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -khtml-border-radius: 8px;
@@ -71,7 +74,7 @@ a.link {
     width: 10em;
     height: 10em;
     border-radius: 5.6em;
-    border: hsl(47, 100%, 50%) solid 1px;
+    border: hsla(0, 0%, 0%, 0.342) solid 1px;
 }
 
 .upperinfo {
@@ -83,15 +86,16 @@ a.link {
 a.link:hover,
 button:hover {
     background: #fff6;
-    color: #b7dc14;
+    color: #000000;
 }
 
-button:active, button:focus {
-      outline: none;
+button:active,
+button:focus {
+    outline: none;
 }
 
 button::-moz-focus-inner {
-      border: 0;
+    border: 0;
 }
 
 button::-webkit-focus-inner {
@@ -131,10 +135,11 @@ h2 {
     z-index: 999;
     overflow: auto;
 }
+
 .popup {
     top: 10%;
     left: 0;
-    right: 0;       
+    right: 0;
     font-size: 14px;
     margin: auto;
     width: 85%;
@@ -151,20 +156,21 @@ h2 {
     -ms-border-radius: 14px;
     border-radius: 14px;
     font: 'ultra-condensed';
-    -webkit-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
-    -moz-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
-    -ms-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
-    box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, .22), 0 19px 60px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, .22), 0 19px 60px rgba(0, 0, 0, .3);
+    -ms-box-shadow: 0 15px 20px rgba(0, 0, 0, .22), 0 19px 60px rgba(0, 0, 0, .3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .22), 0 19px 60px rgba(0, 0, 0, .3);
 }
+
 input[type=button] {
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    -moz-tap-highlight-color: rgba(0,0,0,0);
-    padding: 12px 20px; 
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding: 12px 20px;
     background: #7d0b22;
     color: #fff;
     border: 0 none;
     cursor: pointer;
-    border-radius: 8px; 
+    border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -khtml-border-radius: 8px;
@@ -177,12 +183,13 @@ input[type=button]:hover {
     background: #7d0b22;
 }
 
-input[type=button]:active, input[type=button]:focus {
+input[type=button]:active,
+input[type=button]:focus {
     outline: none;
 }
 
 input[type=button]::-moz-focus-inner {
-      border: 0;
+    border: 0;
 }
 
 input[type=button]::-webkit-focus-inner {
